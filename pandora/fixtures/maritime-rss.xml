@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Maritime &amp; Trade Wire (sample)</title>
+    <link>https://example-maritime.test</link>
+    <description>Recorded sample feed used for offline development.</description>
+    <item>
+      <title><![CDATA[Antwerp-Bruges reports berth delays of up to 36 hours as strike spillover bites]]></title>
+      <link>https://example-maritime.test/antwerp-berth-delays</link>
+      <guid>https://example-maritime.test/antwerp-berth-delays</guid>
+      <description><![CDATA[Terminal operators at Antwerp-Bruges warn of a growing backlog after vessels diverted from Rotterdam. Average waiting time has risen sharply and yard density is above 85 per cent.]]></description>
+      <pubDate>Tue, 15 Sep 2026 09:40:00 GMT</pubDate>
+      <category>Ports</category>
+    </item>
+    <item>
+      <title><![CDATA[EU adopts new sanctions package restricting port calls for listed vessels]]></title>
+      <link>https://example-maritime.test/eu-sanctions-package</link>
+      <guid>https://example-maritime.test/eu-sanctions-package</guid>
+      <description><![CDATA[The new regulation bans port access across all member states for a further 44 listed vessels and tightens customs inspection requirements for transhipped cargo.]]></description>
+      <pubDate>Tue, 15 Sep 2026 07:05:00 GMT</pubDate>
+      <category>Regulation</category>
+    </item>
+    <item>
+      <title><![CDATA[Low water on the Rhine forces barge operators to cut loadings]]></title>
+      <link>https://example-maritime.test/rhine-low-water</link>
+      <guid>https://example-maritime.test/rhine-low-water</guid>
+      <description><![CDATA[River levels at Kaub have fallen below 80 cm, restricting barge drafts. Operators are applying low-water surcharges and shifting volume to rail.]]></description>
+      <pubDate>Tue, 15 Sep 2026 06:20:00 GMT</pubDate>
+      <category>Inland waterways</category>
+    </item>
+    <item>
+      <title><![CDATA[Ransomware attack disrupts terminal IT systems at Port Klang]]></title>
+      <link>https://example-maritime.test/port-klang-ransomware</link>
+      <guid>https://example-maritime.test/port-klang-ransomware</guid>
+      <description><![CDATA[A ransomware incident has taken gate and yard planning systems offline at one Port Klang terminal. Operations have moved to manual processing and truck turn times have doubled.]]></description>
+      <pubDate>Tue, 15 Sep 2026 05:00:00 GMT</pubDate>
+      <category>Cyber</category>
+    </item>
+    <item>
+      <title><![CDATA[Interview: the terminal chief who says automation is oversold]]></title>
+      <link>https://example-maritime.test/interview-terminal-chief</link>
+      <guid>https://example-maritime.test/interview-terminal-chief</guid>
+      <description><![CDATA[A wide-ranging interview on labour, capital expenditure and why the industry keeps buying cranes it cannot staff.]]></description>
+      <pubDate>Tue, 15 Sep 2026 04:10:00 GMT</pubDate>
+      <category>Features</category>
+    </item>
+    <item>
+      <title><![CDATA[Savannah terminals to shut ahead of hurricane landfall]]></title>
+      <link>https://example-maritime.test/savannah-hurricane-shut</link>
+      <guid>https://example-maritime.test/savannah-hurricane-shut</guid>
+      <description><![CDATA[The Georgia Ports Authority confirmed all Savannah container terminals will suspend operations from 1800 local, with cranes secured and gates closed to truck traffic.]]></description>
+      <pubDate>Tue, 15 Sep 2026 12:30:00 GMT</pubDate>
+      <category>Ports</category>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,81 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated": 1789574400000,
+    "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+    "title": "USGS Magnitude 4.5+ Earthquakes, Past Day",
+    "status": 200,
+    "api": "1.10.3",
+    "count": 4
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "us7000pand",
+      "properties": {
+        "mag": 6.8,
+        "place": "48 km SW of Kaohsiung, Taiwan",
+        "time": 1789556400000,
+        "updated": 1789560000000,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pand",
+        "felt": 412,
+        "tsunami": 1,
+        "sig": 711,
+        "type": "earthquake",
+        "title": "M 6.8 - 48 km SW of Kaohsiung, Taiwan"
+      },
+      "geometry": { "type": "Point", "coordinates": [120.01, 22.28, 24.6] }
+    },
+    {
+      "type": "Feature",
+      "id": "us7000pane",
+      "properties": {
+        "mag": 5.1,
+        "place": "112 km W of Valparaiso, Chile",
+        "time": 1789542000000,
+        "updated": 1789545600000,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pane",
+        "felt": 38,
+        "tsunami": 0,
+        "sig": 400,
+        "type": "earthquake",
+        "title": "M 5.1 - 112 km W of Valparaiso, Chile"
+      },
+      "geometry": { "type": "Point", "coordinates": [-72.55, -33.05, 41.2] }
+    },
+    {
+      "type": "Feature",
+      "id": "us7000panf",
+      "properties": {
+        "mag": 4.6,
+        "place": "31 km NE of Izmir, Turkey",
+        "time": 1789528800000,
+        "updated": 1789532400000,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000panf",
+        "felt": 91,
+        "tsunami": 0,
+        "sig": 326,
+        "type": "earthquake",
+        "title": "M 4.6 - 31 km NE of Izmir, Turkey"
+      },
+      "geometry": { "type": "Point", "coordinates": [27.41, 38.62, 8.0] }
+    },
+    {
+      "type": "Feature",
+      "id": "us7000pang",
+      "properties": {
+        "mag": 7.6,
+        "place": "184 km SE of Jayapura, Indonesia",
+        "time": 1789515600000,
+        "updated": 1789519200000,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pang",
+        "felt": 1204,
+        "tsunami": 1,
+        "sig": 1088,
+        "type": "earthquake",
+        "title": "M 7.6 - 184 km SE of Jayapura, Indonesia"
+      },
+      "geometry": { "type": "Point", "coordinates": [141.83, -3.94, 32.1] }
+    }
+  ]
+}

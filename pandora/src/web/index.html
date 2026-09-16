@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pandora — Event Subscriptions</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📡</text></svg>">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div id="gate" class="gate">
+  <form class="gate-card" id="gate-form">
+    <h1>Pandora</h1>
+    <p class="muted">Paste the curator key printed by <code>npm run setup</code>.</p>
+    <input type="password" id="gate-key" placeholder="pnd_…" autocomplete="off" spellcheck="false">
+    <button type="submit">Open console</button>
+    <p class="gate-error" id="gate-error" hidden></p>
+  </form>
+</div>
+
+<div id="app" hidden>
+  <header>
+    <div class="brand">
+      <span class="dot"></span>
+      <h1>Pandora</h1>
+      <span class="muted" id="mode-badge"></span>
+    </div>
+    <nav>
+      <button data-tab="queue" class="active">Review queue <span class="pill" id="queue-count">0</span></button>
+      <button data-tab="events">Events</button>
+      <button data-tab="subscriptions">Subscriptions</button>
+      <button data-tab="rules">Rules</button>
+      <button data-tab="sources">Sources</button>
+    </nav>
+    <div class="actions">
+      <button id="run-pipeline" class="primary">Fetch now</button>
+      <button id="sign-out" class="ghost" title="Forget this key">Sign out</button>
+    </div>
+  </header>
+
+  <div class="stats" id="stats"></div>
+  <main>
+    <section data-panel="queue" class="panel">
+      <div class="panel-head">
+        <h2>Awaiting review</h2>
+        <p class="muted">Matches the system was not confident enough to send on its own. Approve, edit, or reject — and turn a rejection into a standing rule.</p>
+      </div>
+      <div id="queue-list" class="list"></div>
+    </section>
+
+    <section data-panel="events" class="panel" hidden>
+      <div class="panel-head">
+        <h2>All events</h2>
+        <p class="muted">Everything ingested and normalised, newest first — matched or not.</p>
+      </div>
+      <div id="events-list" class="list"></div>
+    </section>
+
+    <section data-panel="subscriptions" class="panel" hidden>
+      <div class="panel-head">
+        <h2>Subscriptions</h2>
+        <p class="muted">A standing request for events. Use <strong>Dry run</strong> to see what a filter would have caught before switching it on.</p>
+      </div>
+      <div id="subscriptions-list" class="list"></div>
+    </section>
+
+    <section data-panel="rules" class="panel" hidden>
+      <div class="panel-head">
+        <h2>Curation rules</h2>
+        <p class="muted">How you teach the matcher. <em>Boost</em> raises a score, <em>suppress</em> lowers it, <em>block</em> vetoes outright, <em>require</em> demands a signal be present.</p>
+      </div>
+      <form id="rule-form" class="inline-form">
+        <select name="kind">
+          <option value="suppress">suppress</option>
+          <option value="boost">boost</option>
+          <option value="block">block</option>
+          <option value="require">require</option>
+        </select>
+        <select name="target">
+          <option value="keyword">keyword</option>
+          <option value="place">place</option>
+          <option value="category">category</option>
+          <option value="domain">domain</option>
+          <option value="country">country</option>
+          <option value="source">source</option>
+        </select>
+        <input name="value" placeholder="value, e.g. opinion" required>
+        <input name="weight" type="number" step="0.05" min="0" max="1" value="0.25" title="How much to move the score">
+        <select name="subscription_id"><option value="">all subscriptions</option></select>
+        <button type="submit" class="primary">Add rule</button>
+      </form>
+      <div id="rules-list" class="list"></div>
+    </section>
+
+    <section data-panel="sources" class="panel" hidden>
+      <div class="panel-head">
+        <h2>Sources</h2>
+        <p class="muted">Where signals come from. <strong>Trust</strong> feeds the match score and decides what gets curated before sending.</p>
+      </div>
+      <div id="sources-list" class="list"></div>
+    </section>
+  </main>
+</div>
+
+<div id="toast" class="toast" hidden></div>
+<script type="module" src="/app.js"></script>
+</body>
+</html>

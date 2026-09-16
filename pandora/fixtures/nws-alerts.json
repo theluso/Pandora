@@ -1,0 +1,99 @@
+{
+  "type": "FeatureCollection",
+  "title": "Current watches, warnings, and advisories",
+  "updated": "2026-09-15T14:05:00+00:00",
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aa11",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-118.62, 33.40], [-117.88, 33.40], [-117.88, 34.05], [-118.62, 34.05], [-118.62, 33.40]]]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aa11",
+        "id": "urn:oid:2.49.0.1.840.0.aa11",
+        "areaDesc": "Los Angeles County Coastal Waters; San Pedro Bay",
+        "sent": "2026-09-15T09:12:00-07:00",
+        "effective": "2026-09-15T09:12:00-07:00",
+        "expires": "2026-09-16T18:00:00-07:00",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Gale Warning",
+        "senderName": "NWS Los Angeles CA",
+        "headline": "Gale Warning issued for San Pedro Bay and Los Angeles coastal waters",
+        "description": "Sustained winds of 35 to 45 knots with gusts to 55 knots expected. Port of Los Angeles and Port of Long Beach pilot services are suspended until further notice. Vessel movements in the outer harbor are restricted and container crane operations are halted for the duration of the warning."
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bb22",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-95.60, 29.45], [-94.85, 29.45], [-94.85, 30.05], [-95.60, 30.05], [-95.60, 29.45]]]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bb22",
+        "id": "urn:oid:2.49.0.1.840.0.bb22",
+        "areaDesc": "Harris County; Galveston Bay",
+        "sent": "2026-09-15T05:40:00-05:00",
+        "effective": "2026-09-15T06:00:00-05:00",
+        "expires": "2026-09-15T22:00:00-05:00",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Dense Fog Advisory",
+        "senderName": "NWS Houston TX",
+        "headline": "Dense Fog Advisory in effect for the Houston Ship Channel",
+        "description": "Visibility below one quarter mile. The Houston Ship Channel is restricted to daylight transits and pilot boardings are delayed. Expect vessel queue to build through the morning."
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cc33",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-81.45, 31.95], [-80.85, 31.95], [-80.85, 32.35], [-81.45, 32.35], [-81.45, 31.95]]]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cc33",
+        "id": "urn:oid:2.49.0.1.840.0.cc33",
+        "areaDesc": "Chatham County; Port of Savannah",
+        "sent": "2026-09-15T11:00:00-04:00",
+        "effective": "2026-09-15T12:00:00-04:00",
+        "expires": "2026-09-17T06:00:00-04:00",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Hurricane Warning",
+        "senderName": "NWS Charleston SC",
+        "headline": "Hurricane Warning issued for coastal Georgia including the Port of Savannah",
+        "description": "Hurricane conditions expected within 36 hours. Storm surge of 6 to 9 feet is forecast. The Port of Savannah has announced it will suspend operations and secure all container cranes ahead of landfall. Terminal gates close at 1800 local."
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dd44",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-106.5, 38.9], [-105.9, 38.9], [-105.9, 39.4], [-106.5, 39.4], [-106.5, 38.9]]]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dd44",
+        "id": "urn:oid:2.49.0.1.840.0.dd44",
+        "areaDesc": "Summit County, Colorado",
+        "sent": "2026-09-15T08:00:00-06:00",
+        "effective": "2026-09-15T08:00:00-06:00",
+        "expires": "2026-09-16T08:00:00-06:00",
+        "severity": "Minor",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Air Quality Alert",
+        "senderName": "NWS Denver CO",
+        "headline": "Air Quality Alert for Summit County",
+        "description": "Ozone levels may reach unhealthy levels for sensitive groups during afternoon hours."
+      }
+    }
+  ]
+}
