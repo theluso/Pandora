@@ -1,0 +1,21 @@
+{
+  "name": "pandora-events",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Event subscription platform — public-internet signals normalised into structured events, matched against standing subscriptions, curated by humans, delivered to AI agents and systems via webhook or polling API.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22.5.0" },
+  "scripts": {
+    "setup": "node --disable-warning=ExperimentalWarning src/cli.js setup",
+    "demo": "node --disable-warning=ExperimentalWarning src/cli.js demo",
+    "dev": "node --disable-warning=ExperimentalWarning src/cli.js serve",
+    "serve": "node --disable-warning=ExperimentalWarning src/cli.js serve",
+    "ingest": "node --disable-warning=ExperimentalWarning src/cli.js ingest",
+    "worker": "node --disable-warning=ExperimentalWarning src/cli.js worker",
+    "reset": "node --disable-warning=ExperimentalWarning src/cli.js reset",
+    "test": "node --test --disable-warning=ExperimentalWarning test/*.test.mjs"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

@@ -1,0 +1,68 @@
+{
+  "articles": [
+    {
+      "url": "https://www.example-wire.test/2026/09/rotterdam-dockers-walkout",
+      "title": "Dockworkers begin 48-hour walkout at Port of Rotterdam, container operations suspended",
+      "seendate": "20260915T071500Z",
+      "domain": "example-wire.test",
+      "language": "English",
+      "sourcecountry": "Netherlands"
+    },
+    {
+      "url": "https://www.example-trade.test/singapore-anchorage-queue-grows",
+      "title": "Singapore anchorage queue grows to 38 boxships as berth congestion worsens",
+      "seendate": "20260915T061000Z",
+      "domain": "example-trade.test",
+      "language": "English",
+      "sourcecountry": "Singapore"
+    },
+    {
+      "url": "https://www.example-daily.test/panama-canal-draft-cut",
+      "title": "Panama Canal Authority cuts maximum draft again as Gatun lake levels fall",
+      "seendate": "20260915T043000Z",
+      "domain": "example-daily.test",
+      "language": "English",
+      "sourcecountry": "Panama"
+    },
+    {
+      "url": "https://www.example-herald.test/red-sea-vessel-attacked",
+      "title": "Bulk carrier attacked by drone in the Red Sea near Bab el-Mandeb, crew safe",
+      "seendate": "20260915T031200Z",
+      "domain": "example-herald.test",
+      "language": "English",
+      "sourcecountry": "Yemen"
+    },
+    {
+      "url": "https://www.example-business.test/maersk-appoints-cfo",
+      "title": "Maersk appoints new chief financial officer effective January",
+      "seendate": "20260915T090000Z",
+      "domain": "example-business.test",
+      "language": "English",
+      "sourcecountry": "Denmark"
+    },
+    {
+      "url": "https://www.example-opinion.test/opinion-shipping-decade",
+      "title": "Opinion: why the next decade of shipping belongs to the patient operator",
+      "seendate": "20260915T100000Z",
+      "domain": "example-opinion.test",
+      "language": "English",
+      "sourcecountry": "United Kingdom"
+    },
+    {
+      "url": "https://www.example-logistics.test/felixstowe-rail-disruption",
+      "title": "Rail disruption at Felixstowe after signalling failure, boxes moving by road",
+      "seendate": "20260915T081800Z",
+      "domain": "example-logistics.test",
+      "language": "English",
+      "sourcecountry": "United Kingdom"
+    },
+    {
+      "url": "https://www.example-news.test/ningbo-typhoon-closure",
+      "title": "Typhoon Mawar forces Ningbo-Zhoushan to close terminals and halt all vessel movements",
+      "seendate": "20260915T022000Z",
+      "domain": "example-news.test",
+      "language": "English",
+      "sourcecountry": "China"
+    }
+  ]
+}
